@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Configure Keywords</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Configure Keywords</h1>
+    <form id="configForm">
+      <div id="keywordsConfig">
+        <div>
+          <label>Keyword:</label>
+          <input type="text" name="keyword">
+          <label>Color:</label>
+          <select name="color">
+            <option value="lavender">Lavender</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="sage">Sage</option>
+            <option value="peacock">Peacock</option>
+            <option value="flamingo">Flamingo</option>
+            <option value="tomato">Tomato</option>
+            <option value="banana">Banana</option>
+            <option value="graphite">Graphite</option>
+            <option value="tangerine">Tangerine</option>
+            <option value="basil">Basil</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" onclick="addKeyword()">Add More</button>
+      <br>
+      <button type="submit">Save Configuration</button>
+    </form>
+    <script src="config.js"></script>
+  </body>
+</html>
